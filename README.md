@@ -2,9 +2,12 @@
 <h3 align="center">Software Engineering Undergraduate | Backend & Mobile App Developer 🇱🇰</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" width="40" height="40" />
+  <a href="https://github.com/chamoddananjaya810" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:chamoddhananjaya76@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -54,5 +57,5 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chamoddananjaya810&show_icons=true&theme=radical" alt="Chamod's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=chamoddananjaya810&show_icons=true&theme=radical&hide_border=true" />
 </p>
