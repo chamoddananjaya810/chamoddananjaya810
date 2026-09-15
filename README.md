@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Chamod Dhananjaya</h1>
-<h3 align="center">Software Engineering Undergraduate | Backend & Mobile App Developer 🇱🇰</h3>
+<h3 align="center">Software Engineering Undergraduate | Backend, Mobile App & Web Developer 🇱🇰</h3>
 
 <p align="center">
   <a href="https://github.com/chamoddananjaya810" target="_blank">
