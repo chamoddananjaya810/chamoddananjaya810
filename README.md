@@ -14,11 +14,22 @@
 
 ## 🚀 About Me:
 
-- 💻 I'm currently studying Software Engineering at Birmingham City University (via Java Institute).
-- 🧠 Strong focus on **Backend Development** (Java, PHP, Laravel) and **Android App Development**.
-- 🛠️ Working with enterprise Java, databases (MySQL, Firebase, PostgreSQL), and server configurations.
-- ⚡ *As if the day was won, even the next day, they should work until the goal is completed* 😎
-- 📫 How to reach me: **chamoddhananjaya76@gmail.com**
+<table>
+  <tr>
+    <td width="60%">
+      <ul>
+        <li>💻 I'm currently studying Software Engineering at Birmingham City University (via Java Institute).</li>
+        <li>🧠 Strong focus on <strong>Backend Development</strong> (Java, PHP, Laravel) and <strong>Android App Development</strong>.</li>
+        <li>🛠️ Working with enterprise Java, databases (MySQL, Firebase, PostgreSQL), and server configurations.</li>
+        <li>⚡ <em>As if the day was won, even the next day, they should work until the goal is completed</em> 😎</li>
+        <li>📫 How to reach me: <strong>chamoddhananjaya76@gmail.com</strong></li>
+      </ul>
+    </td>
+    <td width="40%" align="center">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Software/developer.svg" width="300" />
+    </td>
+  </tr>
+</table>
 
 ---
 
