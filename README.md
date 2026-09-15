@@ -14,26 +14,15 @@
 
 ## 🚀 About Me:
 
-<table>
-  <tr>
-    <td width="60%">
-      <ul>
-        <li>💻 I'm currently studying Software Engineering at Birmingham City University (via Java Institute).</li>
-        <li>🌐 Passionate <strong>Web & Backend Developer</strong>, continuously expanding my expertise in advanced backend architectures and modern web technologies.</li>
-        <li>🐳 Currently exploring and working with <strong>Docker</strong> and <strong>Kubernetes</strong>—building a containerized full-stack architecture featuring Spring Boot, PostgreSQL, and Docker Compose with multi-stage builds, automated health checks, and environment variable management.</li>
-        <li>🧠 Strong focus on <strong>Backend Development</strong> (Java, PHP, Laravel) and <strong>Android App Development</strong>.</li>
-        <li>🛠️ Working with enterprise Java, databases (MySQL, Firebase, PostgreSQL), and server configurations.</li>
-        <li>⚡ <em>As if the day was won, even the next day, they should work until the goal is completed</em> 😎</li>
-        <li>📫 How to reach me: <strong>chamoddhananjaya76@gmail.com</strong></li>
-      </ul>
-    </td>
-    <td width="40%" align="center">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Software/developer.svg" width="300" />
-    </td>
-  </tr>
-</table>
+- 💻 I'm currently studying Software Engineering at Birmingham City University (via Java Institute).
+- 🌐 Passionate **Web & Backend Developer**, continuously expanding my expertise in advanced backend architectures and modern web technologies.
+- 🐳 Currently exploring and working with **Docker** and **Kubernetes**—building a containerized full-stack architecture featuring Spring Boot, PostgreSQL, and Docker Compose with multi-stage builds, automated health checks, and environment variable management.
+- 🧠 Strong focus on **Backend Development** (Java, PHP, Laravel) and **Android App Development**.
+- 🛠️ Working with enterprise Java, databases (MySQL, Firebase, PostgreSQL), and server configurations.
+- ⚡ *As if the day was won, even the next day, they should work until the goal is completed* 😎
+- 📫 How to reach me: **chamoddhananjaya76@gmail.com**
+
 ---
-## 🛠️ Tech Stack:
 
 ## 🛠️ Tech Stack:
 
@@ -67,6 +56,7 @@
 
   <!-- OS, Terminals & DevOps -->
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
   <img src="https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
