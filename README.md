@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chamod Dhananjaya – Software Engineering Undergraduate CV</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -18,6 +19,7 @@
 
   *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   body{margin:0;background:var(--bg);font-family:var(--body);color:var(--ink);font-size:10pt;line-height:1.45}
+
   .bar{max-width:210mm;margin:16px auto 0;padding:0 8px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 14px;font-size:13px;color:var(--muted)}
   .themes{display:flex;align-items:center;gap:8px}
   .themes button{width:26px;height:26px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #aab4c0;cursor:pointer;padding:0}
@@ -28,13 +30,34 @@
 
   .page{width:210mm;min-height:297mm;margin:12px auto 32px;background:#fff;padding:14mm 16mm 12mm;box-shadow:0 2px 14px rgba(15,34,56,.2)}
 
-  header{padding-bottom:9px;border-bottom:3px solid var(--acc)}
+  /* Header with Profile Photo */
+  header{
+    padding-bottom:11px;
+    border-bottom:3px solid var(--acc);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .header-info{flex:1}
+  .avatar{
+    width:86px;
+    height:86px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid var(--acc);
+    box-shadow:0 2px 8px rgba(0,0,0,.12);
+    flex-shrink:0;
+    background:var(--soft);
+  }
+
   h1{font-family:var(--head);font-weight:700;font-size:25pt;line-height:1.1;margin:0;color:var(--navy);letter-spacing:-.01em}
   .role{margin:3px 0 8px;font-family:var(--head);font-weight:500;font-size:12pt;color:var(--acc)}
-  .contact{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 18px;font-size:9.5pt}
+  .contact{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 16px;font-size:9.5pt}
   .contact li{margin:0}
   .contact b{color:var(--muted);font-weight:600}
   .contact a{color:var(--ink);text-decoration:none}
+  .contact a:hover{text-decoration:underline;color:var(--acc)}
 
   section{padding-top:11px}
   h2{font-family:var(--head);font-weight:600;font-size:11.5pt;margin:0 0 6px;color:var(--navy);padding-left:8px;border-left:4px solid var(--acc);line-height:1.2}
@@ -50,13 +73,15 @@
   .tech{margin-top:3px;font-size:9.3pt;color:var(--muted)}
   .tech b{color:var(--softtext)}
 
-  .skills{display:grid;grid-template-columns:34mm 1fr;gap:3px 10px;margin:0}
+  .skills{display:grid;grid-template-columns:36mm 1fr;gap:3px 10px;margin:0}
   .skills dt{font-weight:700;color:var(--navy)}
   .skills dd{margin:0}
   .small{font-size:9.5pt;color:var(--muted)}
 
   @media (max-width:760px){
     .page{width:auto;margin:8px;padding:18px}
+    header{flex-direction:column-reverse;align-items:flex-start}
+    .avatar{width:76px;height:76px}
     .head{flex-direction:column;gap:0}
     .skills{grid-template-columns:1fr;gap:0}
     .skills dd{margin-bottom:5px}
@@ -87,30 +112,33 @@
 <main class="page" contenteditable="true" spellcheck="false">
 
   <header>
-    <h1>Chamod Dhananjaya</h1>
-    <p class="role">Software Engineering Undergraduate</p>
-    <ul class="contact">
-      <li><b>Phone</b> 076 961 1178</li>
-      <li><b>Email</b> <a href="mailto:chamoddhananjaya76@gmail.com">chamoddhananjaya76@gmail.com</a></li>
-      <li><b>Location</b> Hirikuluwa, Muddaragama</li>
-      <li><b>GitHub</b> <a href="https://github.com/chamoddhananjaya810">github.com/chamoddhananjaya810</a></li>
-      <li><b>Portfolio</b> <a href="https://chamod-dhananjaya.vercel.app">chamod-dhananjaya.vercel.app</a></li>
-    </ul>
+    <div class="header-info">
+      <h1>Chamod Dhananjaya</h1>
+      <p class="role">Software Engineering Undergraduate</p>
+      <ul class="contact">
+        <li><b>Phone</b> 076 961 1178</li>
+        <li><b>Email</b> <a href="mailto:chamoddhananjaya76@gmail.com">chamoddhananjaya76@gmail.com</a></li>
+        <li><b>Location</b> Hirikuluwa, Muddaragama</li>
+        <li><b>GitHub</b> <a href="https://github.com/chamoddhananjaya810" target="_blank" rel="noopener">github.com/chamoddhananjaya810</a></li>
+        <li><b>Portfolio</b> <a href="https://chamod-dhananjaya.vercel.app" target="_blank" rel="noopener">chamod-dhananjaya.vercel.app</a></li>
+      </ul>
+    </div>
+    <img class="avatar" src="https://github.com/chamoddhananjaya810.png" alt="Chamod Dhananjaya" onerror="this.style.display='none'">
   </header>
 
   <section>
     <h2>Profile</h2>
-    <p>Software Engineering undergraduate reading for a BSc (Hons) at Birmingham City University through Java Institute, with a UK-awarded Diploma and HND in Software Engineering. Has built full-stack web applications and cross-platform mobile apps using Laravel, React, Flutter and Firebase. Strong in backend architecture, database management and enterprise systems integration, with working knowledge of modern DevOps practices.</p>
+    <p>Software Engineering undergraduate reading for a BSc (Hons) at Birmingham City University through Java Institute, with a UK-awarded Diploma and HND in Software Engineering. Has built full-stack web applications and cross-platform mobile apps using Laravel, React, Flutter and Firebase. Strong in backend architecture, database management and enterprise systems integration, with working knowledge of modern DevOps practices (Docker &amp; Kubernetes).</p>
   </section>
 
   <section>
     <h2>Technical skills</h2>
     <dl class="skills">
-      <dt>Backend and languages</dt><dd>Java, Jakarta EE, Java Servlets, PHP, Laravel, Spring Boot, Hibernate, PostgreSQL, MySQL, Microservices, RESTful APIs</dd>
-      <dt>Frontend and mobile</dt><dd>HTML, CSS, JavaScript, React, React Native, Flutter, Dart, Tailwind CSS, XML, Android</dd>
-      <dt>Architecture and DevOps</dt><dd>MVC architecture, Git / GitHub, Docker, Kubernetes</dd>
-      <dt>Testing and tools</dt><dd>Postman (API testing), Unit testing</dd>
-      <dt>Currently learning</dt><dd>DevOps practices and tooling</dd>
+      <dt>Backend &amp; languages</dt><dd>Java, Jakarta EE, Java Servlets, PHP, Laravel, Spring Boot, Hibernate, Python, PostgreSQL, MySQL, Firebase, MongoDB, SQLite, Microservices, RESTful APIs</dd>
+      <dt>Frontend &amp; mobile</dt><dd>HTML5, CSS3, JavaScript, TypeScript, React, React Native, Angular, Flutter, Dart, Tailwind CSS, Bootstrap, XML, Android</dd>
+      <dt>Architecture &amp; DevOps</dt><dd>MVC architecture, Git / GitHub, Docker, Kubernetes, Payara, Ubuntu</dd>
+      <dt>Testing &amp; tools</dt><dd>Postman (API testing), Unit testing, IntelliJ IDEA, Android Studio</dd>
+      <dt>Currently learning</dt><dd>Containerized microservices, DevOps pipelines &amp; OOD patterns</dd>
     </dl>
   </section>
 
@@ -134,16 +162,16 @@
         <li>Managed store inventory, sales, and repair workflows where items are logged, assigned to technicians and tracked to completion.</li>
         <li>Built dashboards for inventory, sales and stock management, plus monthly and yearly income-versus-expense comparisons.</li>
       </ul>
-      <p class="tech"><b>Tech:</b> Laravel, Flutter</p>
+      <p class="tech"><b>Tech:</b> Laravel, Flutter, MySQL, REST API</p>
     </div>
 
     <div class="entry">
       <div class="head"><strong>Smart Railway – Train ticket fraud prevention system</strong></div>
       <ul>
         <li>Built a software solution to address train ticket fraud, a real problem faced by the railway department.</li>
-        <li>Developed the data layer with Hibernate (ORM) for reliable ticket and booking data management.</li>
+        <li>Developed the data layer with Hibernate (ORM) and Java Servlets for reliable ticket and booking data management.</li>
       </ul>
-      <p class="tech"><b>Tech:</b> Java, Hibernate</p>
+      <p class="tech"><b>Tech:</b> Java, Servlets, Hibernate, MySQL</p>
     </div>
   </section>
 
