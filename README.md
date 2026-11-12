@@ -1,199 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chamod Dhananjaya – Software Engineering Undergraduate CV</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --acc:#1f4e8c; --navy:#14284b; --soft:#e6eef9; --softtext:#1b4b82;
-    --ink:#1c2633; --muted:#5d6b7b; --rule:#d9e0e8; --bg:#e6eaef;
-    --head:'Outfit','Segoe UI',Arial,sans-serif; --body:'Source Sans 3',Calibri,Arial,sans-serif;
-  }
-  [data-theme="charcoal"]{--acc:#4a5360; --navy:#26292e; --soft:#eceef1; --softtext:#2f343a}
-  [data-theme="forest"]{--acc:#2f7a5b; --navy:#17382d; --soft:#e2f2ea; --softtext:#1d5740}
-  [data-theme="burgundy"]{--acc:#9a2f4a; --navy:#4a1523; --soft:#f8e7ec; --softtext:#7a2238}
+<div align="center">
 
-  *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  body{margin:0;background:var(--bg);font-family:var(--body);color:var(--ink);font-size:10pt;line-height:1.45}
-  .bar{max-width:210mm;margin:16px auto 0;padding:0 8px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 14px;font-size:13px;color:var(--muted)}
-  .themes{display:flex;align-items:center;gap:8px}
-  .themes button{width:26px;height:26px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #aab4c0;cursor:pointer;padding:0}
-  .themes button[aria-pressed="true"]{box-shadow:0 0 0 3px var(--acc)}
-  .themes button:focus-visible,.pdf:focus-visible{outline:3px solid #8fb8de;outline-offset:2px}
-  .pdf{font:inherit;font-weight:600;background:var(--navy);color:#fff;border:0;border-radius:6px;padding:8px 14px;cursor:pointer}
-  [contenteditable]:focus{outline:2px dashed #8fb8de;outline-offset:2px}
+  <!-- Animated Wave Header -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:4f46e5,100:06b6d4&height=210&section=header&text=Chamod%20Dhananjaya&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20Undergraduate%20%7C%20Backend%20%26%20Full-Stack%20Developer&descAlignY=60&descSize=16" alt="Chamod Dhananjaya Header" />
 
-  .page{width:210mm;min-height:297mm;margin:12px auto 32px;background:#fff;padding:14mm 16mm 12mm;box-shadow:0 2px 14px rgba(15,34,56,.2)}
+  <!-- Animated Typing Effect -->
+  <a href="https://chamod-dhananjaya.vercel.app">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=BSc+(Hons)+Software+Engineering+Undergrad+%40+Birmingham+City+Univ.;Architecting+Java%2C+Spring+Boot+%26+Laravel+Backends;Building+React+%26+Flutter+Cross-Platform+Applications;Researching+OOD+Patterns+%26+Exploring+Docker+%2F+Kubernetes" alt="Typing SVG" />
+  </a>
 
-  header{padding-bottom:9px;border-bottom:3px solid var(--acc)}
-  h1{font-family:var(--head);font-weight:700;font-size:25pt;line-height:1.1;margin:0;color:var(--navy);letter-spacing:-.01em}
-  .role{margin:3px 0 8px;font-family:var(--head);font-weight:500;font-size:12pt;color:var(--acc)}
-  .contact{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 18px;font-size:9.5pt}
-  .contact li{margin:0}
-  .contact b{color:var(--muted);font-weight:600}
-  .contact a{color:var(--ink);text-decoration:none}
+  <br/>
 
-  section{padding-top:11px}
-  h2{font-family:var(--head);font-weight:600;font-size:11.5pt;margin:0 0 6px;color:var(--navy);padding-left:8px;border-left:4px solid var(--acc);line-height:1.2}
-  p{margin:0}
-  ul{margin:3px 0 0;padding-left:16px}
-  li{margin-bottom:2px}
-  .entry{margin-bottom:9px;break-inside:avoid}
-  .entry:last-child{margin-bottom:0}
-  .head{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
-  .head strong{font-family:var(--head);font-weight:600;font-size:10.8pt;color:var(--navy)}
-  .date{color:var(--muted);font-size:9.3pt;white-space:nowrap}
-  .sub{color:var(--acc);font-weight:600;margin:0 0 2px;font-size:9.8pt}
-  .tech{margin-top:3px;font-size:9.3pt;color:var(--muted)}
-  .tech b{color:var(--softtext)}
+  <!-- Quick Connect & Portfolio Badges -->
+  <p>
+    <a href="https://chamod-dhananjaya.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Live%20Portfolio-chamod--dhananjaya.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="mailto:chamoddhananjaya76@gmail.com">
+      <img src="https://img.shields.io/badge/Email-chamoddhananjaya76%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://wa.me/94769611178" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp-+94%2076%20961%201178-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=chamoddhananjaya810&label=Profile%20Views&color=06b6d4&style=for-the-badge" alt="Profile Views" />
+  </p>
 
-  .skills{display:grid;grid-template-columns:34mm 1fr;gap:3px 10px;margin:0}
-  .skills dt{font-weight:700;color:var(--navy)}
-  .skills dd{margin:0}
-  .small{font-size:9.5pt;color:var(--muted)}
-
-  @media (max-width:760px){
-    .page{width:auto;margin:8px;padding:18px}
-    .head{flex-direction:column;gap:0}
-    .skills{grid-template-columns:1fr;gap:0}
-    .skills dd{margin-bottom:5px}
-  }
-  @media print{
-    @page{size:A4;margin:0}
-    body{background:#fff}
-    .bar{display:none}
-    .page{margin:0;box-shadow:none;width:210mm;min-height:297mm}
-    [contenteditable]:focus{outline:0}
-  }
-</style>
-</head>
-<body>
-
-<div class="bar">
-  <div class="themes" role="group" aria-label="Colour theme">
-    <span>Colour:</span>
-    <button type="button" data-t="navy" aria-label="Corporate Navy" title="Corporate Navy" style="background:#14284b" aria-pressed="true"></button>
-    <button type="button" data-t="charcoal" aria-label="Executive Charcoal" title="Executive Charcoal" style="background:#26292e" aria-pressed="false"></button>
-    <button type="button" data-t="forest" aria-label="Forest Green" title="Forest Green" style="background:#17382d" aria-pressed="false"></button>
-    <button type="button" data-t="burgundy" aria-label="Deep Burgundy" title="Deep Burgundy" style="background:#4a1523" aria-pressed="false"></button>
-  </div>
-  <span>Click text to edit.</span>
-  <button class="pdf" type="button" onclick="window.print()">Save as PDF</button>
 </div>
 
-<main class="page" contenteditable="true" spellcheck="false">
+---
 
-  <header>
-    <h1>Chamod Dhananjaya</h1>
-    <p class="role">Software Engineering Undergraduate</p>
-    <ul class="contact">
-      <li><b>Phone</b> 076 961 1178</li>
-      <li><b>Email</b> <a href="mailto:chamoddhananjaya76@gmail.com">chamoddhananjaya76@gmail.com</a></li>
-      <li><b>Location</b> Hirikuluwa, Muddaragama</li>
-      <li><b>GitHub</b> <a href="https://github.com/chamoddhananjaya810">github.com/chamoddhananjaya810</a></li>
-      <li><b>Portfolio</b> <a href="https://chamod-dhananjaya.vercel.app">chamod-dhananjaya.vercel.app</a></li>
-    </ul>
-  </header>
+### 👨‍💻 About Me
 
-  <section>
-    <h2>Profile</h2>
-    <p>Software Engineering undergraduate reading for a BSc (Hons) at Birmingham City University through Java Institute, with a UK-awarded Diploma and HND in Software Engineering. Has built full-stack web applications and cross-platform mobile apps using Laravel, React, Flutter and Firebase. Strong in backend architecture, database management and enterprise systems integration, with working knowledge of modern DevOps practices.</p>
-  </section>
+<ul>
+  <li>🎓 Reading for <b>BSc (Hons) in Software Engineering</b> (2026 – 2027) at <b>Birmingham City University (UK)</b> via Java Institute</li>
+  <li>📜 Holding a UK-awarded <b>Higher National Diploma (HND)</b> &amp; <b>Diploma in Software Engineering</b></li>
+  <li>🏗️ Experienced in building <b>full-stack web applications</b> and <b>cross-platform mobile apps</b> using Java, Laravel, React, Flutter &amp; Firebase</li>
+  <li>🔬 Ongoing research in <b>Object-Oriented Design (OOD) Patterns</b> to improve software structure and maintainability</li>
+  <li>🌱 Currently exploring <b>Docker, Kubernetes &amp; Modern DevOps Practices</b></li>
+  <li>📍 Based in <b>Hirikuluwa, Muddaragama, Sri Lanka</b> · Open to Software Engineering Roles &amp; Collaborations</li>
+</ul>
 
-  <section>
-    <h2>Technical skills</h2>
-    <dl class="skills">
-      <dt>Backend and languages</dt><dd>Java, Jakarta EE, Java Servlets, PHP, Laravel, Spring Boot, Hibernate, PostgreSQL, MySQL, Microservices, RESTful APIs</dd>
-      <dt>Frontend and mobile</dt><dd>HTML, CSS, JavaScript, React, React Native, Flutter, Dart, Tailwind CSS, XML, Android</dd>
-      <dt>Architecture and DevOps</dt><dd>MVC architecture, Git / GitHub, Docker, Kubernetes</dd>
-      <dt>Testing and tools</dt><dd>Postman (API testing), Unit testing</dd>
-      <dt>Currently learning</dt><dd>DevOps practices and tooling</dd>
-    </dl>
-  </section>
+---
 
-  <section>
-    <h2>Projects</h2>
+### 🛠️ Tech Stack & Engineering Arsenal
 
-    <div class="entry">
-      <div class="head"><strong>Aswanu – Agricultural marketplace (inventory and order tracking)</strong></div>
-      <ul>
-        <li>Built a marketplace that connects local farmers and buyers directly, without middlemen.</li>
-        <li>Developed the buyer mobile app with Android and Firebase, and the admin/seller web panel with React and Firebase.</li>
-        <li>Added real-time order tracking, dynamic pricing, and Google Maps API integration for distance and shipping cost calculation.</li>
-      </ul>
-      <p class="tech"><b>Tech:</b> Android, React, Firebase, Google Maps API</p>
-    </div>
+#### ⚙️ Backend, Enterprise & Databases
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white" alt="Hibernate" />
+  <img src="https://img.shields.io/badge/Jakarta_EE-F89820?style=for-the-badge&logo=eclipseide&logoColor=white" alt="Jakarta EE" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
 
-    <div class="entry">
-      <div class="head"><strong>SmartRetail – POS, repair and financial comparison system</strong></div>
-      <ul>
-        <li>Developed a cross-platform point-of-sale and repair management system with a Laravel backend and Flutter app.</li>
-        <li>Managed store inventory, sales, and repair workflows where items are logged, assigned to technicians and tracked to completion.</li>
-        <li>Built dashboards for inventory, sales and stock management, plus monthly and yearly income-versus-expense comparisons.</li>
-      </ul>
-      <p class="tech"><b>Tech:</b> Laravel, Flutter</p>
-    </div>
+#### 🎨 Frontend & Cross-Platform Mobile
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+</p>
 
-    <div class="entry">
-      <div class="head"><strong>Smart Railway – Train ticket fraud prevention system</strong></div>
-      <ul>
-        <li>Built a software solution to address train ticket fraud, a real problem faced by the railway department.</li>
-        <li>Developed the data layer with Hibernate (ORM) for reliable ticket and booking data management.</li>
-      </ul>
-      <p class="tech"><b>Tech:</b> Java, Hibernate</p>
-    </div>
-  </section>
+#### 🐳 Architecture, DevOps & Testing Tools
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/RESTful_APIs-6366F1?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+</p>
 
-  <section>
-    <h2>Research</h2>
-    <div class="entry">
-      <div class="head"><strong>Object-Oriented Design Patterns</strong><span class="date">Ongoing</span></div>
-      <ul>
-        <li>Currently researching and studying object-oriented design (OOD) patterns and how they improve the structure and maintainability of software systems.</li>
-      </ul>
-    </div>
-  </section>
+---
 
-  <section>
-    <h2>Education</h2>
-    <div class="entry">
-      <div class="head"><strong>BSc (Hons) in Software Engineering</strong><span class="date">2026 – 2027 (ongoing)</span></div>
-      <p class="sub">Birmingham City University, via Java Institute</p>
-    </div>
-    <div class="entry">
-      <div class="head"><strong>Higher National Diploma (HND) in Software Engineering</strong><span class="date">2025</span></div>
-      <p class="sub">UK-awarded qualification, via Java Institute</p>
-    </div>
-    <div class="entry">
-      <div class="head"><strong>G.C.E. Advanced Level</strong><span class="date">2021</span></div>
-      <p class="small">Buddhist Civilization (B), Media (C), ICT (S)</p>
-    </div>
-    <div class="entry">
-      <div class="head"><strong>G.C.E. Ordinary Level</strong><span class="date">2018</span></div>
-      <p class="small">Buddhism (B), History (B), Mathematics (C), English (C), ICT (C), Science (C), Sinhala (C), Drama (C), Geography (S)</p>
-    </div>
-  </section>
+### 🚀 Featured Engineering Projects
 
-  <section>
-    <h2>Soft skills</h2>
-    <p>Problem solving · Backend architecture and logic · System design · System management · Inventory management · Time management · Adaptability to new technology</p>
-  </section>
+| Project | Architecture & Problem Solved | Tech Stack | Showcase |
+| :--- | :--- | :--- | :--- |
+| **🌾 Aswanu Marketplace** *(Mobile + Web Admin)* | Connects local farmers and buyers directly without middlemen; includes real-time order tracking, dynamic pricing, and **Google Maps API** distance/freight calculation. | <code>Android</code> <code>React</code> <code>Firebase</code> <code>Google Maps API</code> | [View Details →](https://chamod-dhananjaya.vercel.app/#projects) |
+| **🛍️ SmartRetail Suite** *(POS, Repair & Finance)* | Cross-platform POS and repair tracking system with technician workflows, inventory control, and monthly/yearly income-versus-expense dashboards. | <code>Laravel</code> <code>Flutter</code> <code>MySQL</code> <code>REST API</code> | [View Details →](https://chamod-dhananjaya.vercel.app/#projects) |
+| **🚆 Smart Railway** *(Fraud Prevention & Booking)* | Enterprise ticketing and schedule solution addressing train ticket fraud using Hibernate ORM for reliable booking and data integrity. | <code>Java</code> <code>Servlets</code> <code>Hibernate</code> <code>MySQL</code> | [View Details →](https://chamod-dhananjaya.vercel.app/#projects) |
 
-</main>
+---
 
-<script>
-  var btns = document.querySelectorAll('.themes button');
-  btns.forEach(function(b){
-    b.addEventListener('click', function(){
-      var t = b.getAttribute('data-t');
-      if (t === 'navy') document.documentElement.removeAttribute('data-theme');
-      else document.documentElement.setAttribute('data-theme', t);
-      btns.forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-    });
-  });
-</script>
-</body>
-</html>
+### 📊 Live GitHub Analytics
+
+<div align="center">
+  <a href="https://github.com/chamoddhananjaya810">
+    <img height="175" src="https://github-readme-stats.vercel.app/api?username=chamoddhananjaya810&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060813&title_color=818cf8&icon_color=06b6d4&text_color=e2e8f0" alt="Chamod's GitHub Stats" />
+  </a>
+  <a href="https://github.com/chamoddhananjaya810">
+    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chamoddhananjaya810&layout=compact&theme=tokyonight&hide_border=true&bg_color=060813&title_color=818cf8&text_color=e2e8f0" alt="Top Languages" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/chamoddhananjaya810">
+    <img src="https://streak-stats.demolab.com/?user=chamoddhananjaya810&theme=tokyonight&hide_border=true&background=060813&stroke=6366f1&ring=06b6d4&fire=38bdf8&currStreakLabel=818cf8" alt="GitHub Streak" />
+  </a>
+</div>
+
+---
+
+### 🎓 Education & Ongoing Research
+
+<ul>
+  <li>🎓 <b>BSc (Hons) in Software Engineering</b> <i>(2026 – 2027)</i> — Birmingham City University (via Java Institute)</li>
+  <li>📜 <b>Higher National Diploma (HND) in Software Engineering</b> <i>(2025)</i> — UK-awarded qualification</li>
+  <li>🔬 <b>Ongoing Research:</b> <i>Object-Oriented Design (OOD) Patterns</i> — improving software structure and maintainability</li>
+</ul>
+
+---
+
+<div align="center">
+  <p>💬 Always open to discussing <b>Enterprise Java, Microservices, Flutter, React,</b> or <b>Software Engineering opportunities</b>!</p>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:4f46e5,100:6366f1&height=110&section=footer" alt="Footer Wave" />
+</div>
