@@ -117,7 +117,35 @@
   <section>
     <h2>Projects</h2>
 
+    <div class="entry">
+      <div class="head"><strong>Aswanu – Agricultural marketplace (inventory and order tracking)</strong></div>
+      <ul>
+        <li>Built a marketplace that connects local farmers and buyers directly, without middlemen.</li>
+        <li>Developed the buyer mobile app with Android and Firebase, and the admin/seller web panel with React and Firebase.</li>
+        <li>Added real-time order tracking, dynamic pricing, and Google Maps API integration for distance and shipping cost calculation.</li>
+      </ul>
+      <p class="tech"><b>Tech:</b> Android, React, Firebase, Google Maps API</p>
+    </div>
 
+    <div class="entry">
+      <div class="head"><strong>SmartRetail – POS, repair and financial comparison system</strong></div>
+      <ul>
+        <li>Developed a cross-platform point-of-sale and repair management system with a Laravel backend and Flutter app.</li>
+        <li>Managed store inventory, sales, and repair workflows where items are logged, assigned to technicians and tracked to completion.</li>
+        <li>Built dashboards for inventory, sales and stock management, plus monthly and yearly income-versus-expense comparisons.</li>
+      </ul>
+      <p class="tech"><b>Tech:</b> Laravel, Flutter</p>
+    </div>
+
+    <div class="entry">
+      <div class="head"><strong>Smart Railway – Train ticket fraud prevention system</strong></div>
+      <ul>
+        <li>Built a software solution to address train ticket fraud, a real problem faced by the railway department.</li>
+        <li>Developed the data layer with Hibernate (ORM) for reliable ticket and booking data management.</li>
+      </ul>
+      <p class="tech"><b>Tech:</b> Java, Hibernate</p>
+    </div>
+  </section>
 
   <section>
     <h2>Research</h2>
